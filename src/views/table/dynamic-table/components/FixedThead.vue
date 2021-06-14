@@ -33,10 +33,52 @@ export default {
     return {
       tableData: [
         {
-          name: 'fruit-1',
-          apple: 'apple-10',
-          banana: 'banana-10',
-          orange: 'orange-10'
+          name: 'fr123位2uit-1',
+          apple: '123ew-10',
+          banana: '额外banana-10',
+          orange: '123132额外2-10'
+        },
+        {
+          name: 'fr123位2uit-1',
+          apple: '123ew-10',
+          banana: '额外banana-10',
+          orange: '123132额外2-10'
+        },
+        {
+          name: 'fr123位2uit-1',
+          apple: '123ew-10',
+          banana: '额外banana-10',
+          orange: '123132额外2-10'
+        },
+        {
+          name: 'fr123位2uit-1',
+          apple: '123ew-10',
+          banana: '额外banana-10',
+          orange: '123132额外2-10'
+        },
+        {
+          name: 'fr123位2uit-1',
+          apple: '123ew-10',
+          banana: '额外banana-10',
+          orange: '123132额外2-10'
+        },
+        {
+          name: 'fr123位2uit-1',
+          apple: '123ew-10',
+          banana: '额外banana-10',
+          orange: '123132额外2-10'
+        },
+        {
+          name: 'fr123位2uit-1',
+          apple: '123ew-10',
+          banana: '额外banana-10',
+          orange: '123132额外2-10'
+        },
+        {
+          name: 'fr123位2uit-1',
+          apple: '123ew-10',
+          banana: '额外banana-10',
+          orange: '123132额外2-10'
         },
         {
           name: 'fruit-2',

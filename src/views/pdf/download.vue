@@ -94,7 +94,9 @@ export default {
   letter-spacing: 0.5px;
   line-height: 28px;
   margin-bottom: 30px;
-  font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: -webkit-pictograph;
+    /* font-size: 18px; */
+    font-weight: 700;
 
   &> :last-child {
     margin-bottom: 0;

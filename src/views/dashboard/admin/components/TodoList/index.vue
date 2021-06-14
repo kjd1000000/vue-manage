@@ -1,5 +1,5 @@
 <template>
-  <section class="todoapp">
+  <section class="todoapp" style="background: #f5f7fa;">
     <!-- header -->
     <header class="header">
       <input class="new-todo" autocomplete="off" placeholder="Todo List" @keyup.enter="addTodo">
@@ -47,14 +47,13 @@ const filters = {
   completed: todos => todos.filter(todo => todo.done)
 }
 const defalutList = [
-  { text: 'star this repository', done: false },
-  { text: 'fork this repository', done: false },
-  { text: 'follow author', done: false },
-  { text: 'vue-element-admin', done: true },
+   { text: 'vue-element-admin', done: true },
   { text: 'vue', done: true },
   { text: 'element-ui', done: true },
   { text: 'axios', done: true },
-  { text: 'webpack', done: true }
+  { text: 'webpack', done: true },
+  
+ 
 ]
 export default {
   components: { Todo },

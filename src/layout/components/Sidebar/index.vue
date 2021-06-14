@@ -12,7 +12,11 @@
         :collapse-transition="false"
         mode="vertical"
       >
-        <sidebar-item v-for="route in permission_routes" :key="route.path" :item="route" :base-path="route.path" />
+      <div v-for="route in permission_routes" :key="route.path">
+        {{route}}
+        <sidebar-item  :item="route" :base-path="route.path" v-if="!route.path.includes('permission')&&!route.path.includes('charts')&&!route.path.includes('icon')&&route.path!=='/tab'&&!route.path.includes('error')&&!route.path.includes('inline-edit-table')&&!route.path.includes('charts')&&!route.path.includes('charts')&&!route.path.includes('charts')"/>
+      </div>
+        
       </el-menu>
     </el-scrollbar>
   </div>

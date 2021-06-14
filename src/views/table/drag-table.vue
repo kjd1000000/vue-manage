@@ -14,9 +14,9 @@
         </template>
       </el-table-column>
 
-      <el-table-column min-width="300px" label="Title">
+      <el-table-column min-width="100px" label="reviewer">
         <template slot-scope="{row}">
-          <span>{{ row.title }}</span>
+          <span>{{ row.reviewer }}</span>
         </template>
       </el-table-column>
 
@@ -26,9 +26,9 @@
         </template>
       </el-table-column>
 
-      <el-table-column width="100px" label="Importance">
+      <el-table-column width="500px" label="content">
         <template slot-scope="{row}">
-          <svg-icon v-for="n in + row.importance" :key="n" icon-class="star" class="icon-star" />
+          <span >{{row.content}}</span>
         </template>
       </el-table-column>
 
@@ -38,13 +38,13 @@
         </template>
       </el-table-column>
 
-      <el-table-column class-name="status-col" label="Status" width="110">
+      <!-- <el-table-column class-name="status-col" label="Status" width="110">
         <template slot-scope="{row}">
           <el-tag :type="row.status | statusFilter">
             {{ row.status }}
           </el-tag>
         </template>
-      </el-table-column>
+      </el-table-column> -->
 
       <el-table-column align="center" label="Drag" width="80">
         <template slot-scope="{}">
@@ -150,5 +150,8 @@ export default {
 }
 .show-d{
   margin-top: 15px;
+}
+.img{
+  width: 25px;
 }
 </style>

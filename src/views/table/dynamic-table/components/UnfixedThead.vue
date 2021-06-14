@@ -31,17 +31,42 @@ export default {
     return {
       tableData: [
         {
-          name: 'fruit-1',
-          apple: 'apple-10',
-          banana: 'banana-10',
-          orange: 'orange-10'
+          name: 'frue12eit-1',
+          apple: '123we',
+          banana: '12ew-10',
+          orange: 'ore21eange-10'
         },
         {
-          name: 'fruit-2',
-          apple: 'apple-20',
-          banana: 'banana-20',
-          orange: 'orange-20'
-        }
+          name: 'frue12eit-1',
+          apple: '123we',
+          banana: '12ew-10',
+          orange: 'ore21eange-10'
+        },
+        {
+          name: 'frue12eit-1',
+          apple: '123we',
+          banana: '12ew-10',
+          orange: 'ore21eange-10'
+        },
+        {
+          name: 'frue12eit-1',
+          apple: '123we',
+          banana: '12ew-10',
+          orange: 'ore21eange-10'
+        },
+        {
+          name: 'frue12eit-1',
+          apple: '123we',
+          banana: '12ew-10',
+          orange: 'ore21eange-10'
+        },
+        {
+          name: 'frue12eit-1',
+          apple: '123we',
+          banana: '12ew-10',
+          orange: 'ore21eange-10'
+        },
+        
       ],
       formThead: ['apple', 'banana']
     }

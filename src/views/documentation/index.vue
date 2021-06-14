@@ -1,11 +1,7 @@
 <template>
   <div class="app-container documentation-container">
-    <a class="document-btn" target="_blank" href="https://store.akveo.com/products/vue-java-admin-dashboard-spring?utm_campaign=akveo_store-Vue-Vue_demo%2Fgithub&utm_source=vue_admin&utm_medium=referral&utm_content=demo_English_button">Java backend integration</a>
-    <a class="document-btn" target="_blank" href="https://kjd1000000.github.io/vue-element-admin-site/">Documentation</a>
-    <a class="document-btn" target="_blank" href="https://github.com/kjd1000000/kjd1000000.github.io/">Github Repository</a>
-    <a class="document-btn" target="_blank" href="https://panjiachen.gitee.io/vue-element-admin-site/zh/">国内文档</a>
-    <dropdown-menu class="document-btn" :items="articleList" title="系列文章" />
-    <a class="document-btn" target="_blank" href="https://kjd1000000.github.io/vue-element-admin-site/zh/job/">内推招聘</a>
+    <iframe class="designPage" src="http://cdn.kcz66.com/k-form-design.html" frameborder="0"></iframe>
+   
   </div>
 </template>
 
@@ -35,7 +31,7 @@ export default {
 
 <style lang="scss" scoped>
 .documentation-container {
-  margin: 50px;
+  margin: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -52,6 +48,10 @@ export default {
     line-height: 60px;
     font-size: 20px;
     text-align: center;
+  }
+  .designPage{
+    width: 100%;
+    height: 100vh;
   }
 }
 </style>

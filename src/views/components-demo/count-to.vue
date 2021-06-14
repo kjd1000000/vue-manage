@@ -65,7 +65,7 @@ export default {
       setDecimals: 0,
       setSeparator: ',',
       setSuffix: ' rmb',
-      setPrefix: '¥ '
+      setPrefix: 'rmb '
     }
   },
   computed: {

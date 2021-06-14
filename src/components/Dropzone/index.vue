@@ -208,7 +208,9 @@ export default {
 <style scoped>
     .dropzone {
         border: 2px solid #E5E5E5;
-        font-family: 'Roboto', sans-serif;
+        font-family: -webkit-pictograph;
+    /* font-size: 18px; */
+    font-weight: 700;
         color: #777;
         transition: background-color .2s linear;
         padding: 5px;

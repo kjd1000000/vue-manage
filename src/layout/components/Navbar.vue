@@ -23,28 +23,15 @@
               {{ $t('navbar.dashboard') }}
             </el-dropdown-item>
           </router-link>
-          <!-- <a target="_blank" href="https://github.com/kjd1000000/kjd1000000.github.io/">
-            <el-dropdown-item>
-              {{ $t('navbar.github') }}
-            </el-dropdown-item>
-          </a>
-            <el-dropdown-item>Docs</el-dropdown-item>
-          </a> -->
           <el-dropdown-item divided @click.native="logout">
             <span style="display:block;">{{ $t('navbar.logOut') }}</span>
           </el-dropdown-item>
         </el-dropdown-menu>
       </el-dropdown>
       <template v-if="device!=='mobile'" >
-        <!-- <search id="header-search" class="right-menu-item" /> -->
-
-      
-
         <lang-select class="right-menu-item hover-effect" />
           <error-log class="errLog-container right-menu-item hover-effect" />
-
         <screenfull id="screenfull" class="right-menu-item hover-effect" />
-
         <el-tooltip :content="$t('navbar.size')" effect="dark" placement="bottom" class="ml30">
           <size-select id="size-select" class="right-menu-item hover-effect" />
         </el-tooltip>
@@ -174,6 +161,6 @@ export default {
   }
 }
 .ml30{
-  margin-right:30px ;
+  margin-right:70px ;
 }
 </style>

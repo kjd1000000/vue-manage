@@ -68,7 +68,9 @@ export default {
       font-weight: 600;
       line-height: 50px;
       font-size: 14px;
-      font-family: Avenir, Helvetica Neue, Arial, Helvetica, sans-serif;
+      font-family: -webkit-pictograph;
+    /* font-size: 18px; */
+    font-weight: 700;
       vertical-align: middle;
     }
   }

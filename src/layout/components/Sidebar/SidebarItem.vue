@@ -12,14 +12,17 @@
       <template slot="title">
         <item v-if="item.meta" :icon="item.meta && item.meta.icon" :title="generateTitle(item.meta.title)" />
       </template>
-      <sidebar-item
-        v-for="child in item.children"
-        :key="child.path"
+      <div  v-for="child in item.children"
+        :key="child.path">
+        <sidebar-item
+        v-if="!child.path.includes('complex')&&!child.path.includes('inline-edit-table')&&!child.path.includes('mixin')&&!child.path.includes('count-to')&&!child.path.includes('avatar-upload')&&!child.path.includes('split-pane')&&!child.path.includes('drag-kanban')&&!child.path.includes('json-editor')&&!child.path.includes('markdown')&&!child.path.includes('drag-select') "
         :is-nest="true"
         :item="child"
         :base-path="resolvePath(child.path)"
         class="nest-menu"
       />
+      </div>
+      
     </el-submenu>
   </div>
 </template>

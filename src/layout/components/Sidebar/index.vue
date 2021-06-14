@@ -13,8 +13,7 @@
         mode="vertical"
       >
       <div v-for="route in permission_routes" :key="route.path">
-        {{route}}
-        <sidebar-item  :item="route" :base-path="route.path" v-if="!route.path.includes('permission')&&!route.path.includes('charts')&&!route.path.includes('icon')&&route.path!=='/tab'&&!route.path.includes('error')&&!route.path.includes('inline-edit-table')&&!route.path.includes('charts')&&!route.path.includes('charts')&&!route.path.includes('charts')"/>
+        <sidebar-item  :item="route" :base-path="route.path" v-if="!route.path.includes('permission')&&!route.path.includes('charts')&&!route.path.includes('icon')&&route.path!=='/tab'&&!route.path.includes('error')&&!route.path.includes('inline-edit-table')&&!route.path.includes('markdown')&&!route.path.includes('drag-select')&&!route.path.includes('example')&&!route.path.includes('excel')"/>
       </div>
         
       </el-menu>

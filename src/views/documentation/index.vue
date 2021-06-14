@@ -1,16 +1,16 @@
 <template>
   <div class="app-container documentation-container">
-    <iframe class="designPage" src="http://cdn.kcz66.com/k-form-design.html" frameborder="0"></iframe>
-   
+    <iframeDseign ></iframeDseign>
   </div>
 </template>
 
 <script>
 import DropdownMenu from '@/components/Share/DropdownMenu'
+import iframeDseign from './iframeDseign'
 
 export default {
   name: 'Documentation',
-  components: { DropdownMenu },
+  components: { DropdownMenu ,iframeDseign},
   data() {
     return {
       articleList: [
@@ -49,9 +49,6 @@ export default {
     font-size: 20px;
     text-align: center;
   }
-  .designPage{
-    width: 100%;
-    height: 100vh;
-  }
+  
 }
 </style>

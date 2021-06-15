@@ -2,7 +2,7 @@
   <div class="app-container documentation-container">
     <iframeDseign ></iframeDseign>
     <div class="block1"></div>
-    <div class="block2"></div>
+    <!-- <div class="block2"></div> -->
   </div>
 </template>
 

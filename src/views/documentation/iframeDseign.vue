@@ -2,7 +2,7 @@
   <div class="designPage" v-loading="loading">
     <iframe
       class="designPage"
-      src="http://form.making.link/basic-version/#/zh-CN/"
+      src="https://dream2023.gitee.io/f-render/"
       frameborder="0"
       @load="load"
     ></iframe>

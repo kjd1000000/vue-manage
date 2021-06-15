@@ -1,6 +1,8 @@
 <template>
   <div class="app-container documentation-container">
     <iframeDseign ></iframeDseign>
+    <div class="block1"></div>
+    <div class="block2"></div>
   </div>
 </template>
 
@@ -31,7 +33,8 @@ export default {
 
 <style lang="scss" scoped>
 .documentation-container {
-  margin: 10px;
+  padding-top:0px;
+  margin: 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -49,6 +52,21 @@ export default {
     font-size: 20px;
     text-align: center;
   }
-  
+  .block1{
+        display: block;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    top: 0px;
+  }
+  .block2{
+           display: block;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    height: 90px;
+    bottom: 26px;
+  }
 }
 </style>

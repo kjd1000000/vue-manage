@@ -104,7 +104,6 @@ English | [简体中文](./README.zh-CN.md)  | [Spanish](./README.es.md)
 
 ```bash
 # clone the project
-git clone -b i18n git@github.com:PanJiaChen/vue-element-admin.git
 
 # enter the project directory
 cd vue-element-admin
@@ -144,11 +143,8 @@ npm run lint
 npm run lint -- --fix
 ```
 
-Refer to [Documentation](https://panjiachen.github.io/vue-element-admin-site/guide/essentials/deploy.html) for more information
 
-## Changelog
 
-Detailed changes for each release are documented in the [release notes](https://github.com/PanJiaChen/vue-element-admin/releases).
 
 ## Online Demo
 

@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="320" src="https://wpimg.wallstcn.com/ecc53a42-d79b-42e2-8852-5126b810a4c8.svg">
+  <img width="320" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fq_70%2Cc_zoom%2Cw_640%2Fimages%2F20180622%2Ff16fcd0b55454535be73cc603d50dbdd.jpeg&refer=http%3A%2F%2F5b0988e595225.cdn.sohucs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1626334644&t=9e27d0c7729f5b900079310335d22df0">
 </p>
 
 <p align="center">
@@ -46,7 +46,7 @@ English | [简体中文](./README.zh-CN.md)  | [Spanish](./README.es.md)
 
 
 <p align="center">
-  <img width="900" src="https://wpimg.wallstcn.com/a5894c1b-f6af-456e-82df-1151da0839bf.png">
+  <!-- <img width="900" src="https://wpimg.wallstcn.com/a5894c1b-f6af-456e-82df-1151da0839bf.png"> -->
 </p>
 
 
@@ -152,17 +152,9 @@ Detailed changes for each release are documented in the [release notes](https://
 
 ## Online Demo
 
-[Preview](https://panjiachen.github.io/vue-element-admin)
 
-## Donate
 
-If you find this project useful, you can buy author a glass of juice :tropical_drink:
 
-![donate](https://wpimg.wallstcn.com/bd273f0d-83a0-4ef2-92e1-9ac8ed3746b9.png)
-
-[Paypal Me](https://www.paypal.me/panfree23)
-
-[Buy me a coffee](https://www.buymeacoffee.com/Pan)
 
 ## Browsers support
 
@@ -172,8 +164,4 @@ Modern browsers and Internet Explorer 10+.
 | --------- | --------- | --------- | --------- |
 | IE10, IE11, Edge | last 2 versions | last 2 versions | last 2 versions |
 
-## License
 
-[MIT](https://github.com/PanJiaChen/vue-element-admin/blob/master/LICENSE)
-
-Copyright (c) 2017-present PanJiaChen

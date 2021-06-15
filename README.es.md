@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="320" src="https://wpimg.wallstcn.com/ecc53a42-d79b-42e2-8852-5126b810a4c8.svg">
+  <img width="320" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fq_70%2Cc_zoom%2Cw_640%2Fimages%2F20180622%2Ff16fcd0b55454535be73cc603d50dbdd.jpeg&refer=http%3A%2F%2F5b0988e595225.cdn.sohucs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1626334644&t=9e27d0c7729f5b900079310335d22df0">
 </p>
 
 <p align="center">
@@ -10,218 +10,158 @@
     <img src="https://img.shields.io/badge/element--ui-2.7.0-brightgreen.svg" alt="element-ui">
   </a>
   <a href="https://travis-ci.org/PanJiaChen/vue-element-admin" rel="nofollow">
-    <img src="https://travis-ci.org/PanJiaChen/vue-element-admin.svg?branch=master" alt="Estado de Construcción">
+    <img src="https://travis-ci.org/PanJiaChen/vue-element-admin.svg?branch=master" alt="Build Status">
   </a>
   <a href="https://github.com/PanJiaChen/vue-element-admin/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="Licencia">
+    <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
   </a>
   <a href="https://github.com/PanJiaChen/vue-element-admin/releases">
-    <img src="https://img.shields.io/github/release/PanJiaChen/vue-element-admin.svg" alt="Liberación Github">
+    <img src="https://img.shields.io/github/release/PanJiaChen/vue-element-admin.svg" alt="GitHub release">
   </a>
   <a href="https://gitter.im/vue-element-admin/discuss">
-    <img src="https://badges.gitter.im/Join%20Chat.svg" alt="Gitter">
+    <img src="https://badges.gitter.im/Join%20Chat.svg" alt="gitter">
   </a>
   <a href="https://panjiachen.github.io/vue-element-admin-site/donate">
-    <img src="https://img.shields.io/badge/%24-donate-ff69b4.svg" alt="Donación">
+    <img src="https://img.shields.io/badge/%24-donate-ff69b4.svg" alt="donate">
   </a>
 </p>
 
-Español | [English](./README.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md)
+English | [简体中文](./README.zh-CN.md)  | [Spanish](./README.es.md)
 
-## Introducción
+## Introduction
 
-[vue-element-admin](https://panjiachen.github.io/vue-element-admin) es una interfáz de administración preparada para producción. Está basada en [vue](https://github.com/vuejs/vue) y usa [element-ui](https://github.com/ElemeFE/element) como conjunto de herramientas de interfáz de usuario.
+[vue-element-admin](https://panjiachen.github.io/vue-element-admin) is a production-ready front-end solution for admin interfaces. It is based on [vue](https://github.com/vuejs/vue) and uses the UI Toolkit [element-ui](https://github.com/ElemeFE/element).
 
-Vue Element Admin es una solución práctica basada en la nueva plataforma de desarrollo de vue, construida con soporte a i18 para el manejo de múltiples lenguajes, plantillas estándares para aplicaciones de negocio y un conjunto de asombrosas características. Esta herramienta ayuda a construir largas y complejas Aplicacones de una sola página (SPA). Creo que lo que necesites hacer, este proyecto te ayudará.
+[vue-element-admin](https://panjiachen.github.io/vue-element-admin) is based on the newest development stack of vue and it has a built-in i18n solution, typical templates for enterprise applications, and lots of awesome features. It helps you build large and complex Single-Page Applications. I believe whatever your needs are, this project will help you.
 
-- [Vista Prévia de la Aplicación](https://panjiachen.github.io/vue-element-admin)
+- [Preview](https://panjiachen.github.io/vue-element-admin)
 
-- [Documentación](https://panjiachen.github.io/vue-element-admin-site/)
+- [Documentation](https://panjiachen.github.io/vue-element-admin-site/)
 
-- [Canal de Gitter](https://gitter.im/vue-element-admin/discuss)
 
-- [Para Donaciones](https://panjiachen.github.io/vue-element-admin-site/donate/)
 
-- [Enlace de Wiki](https://github.com/PanJiaChen/vue-element-admin/wiki)
 
-- [Canal de Gitee](https://panjiachen.gitee.io/vue-element-admin/)
 
-- Plantilla base recomendada para usar: [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template)
-- Aplicación de Escritorio: [electron-vue-admin](https://github.com/PanJiaChen/electron-vue-admin)
-- Plantilla de Typescript: [vue-typescript-admin-template](https://github.com/Armour/vue-typescript-admin-template) (Créditos: [@Armour](https://github.com/Armour))
-- [awesome-project](https://github.com/PanJiaChen/vue-element-admin/issues/2312)
+**This project does not support low version browsers (e.g. IE). Please add polyfill by yourself.**
 
-**Después de la versión `v4.1.0+`, la rama por defecto master no tendrá soporte para i18n. Por favor utilice la rama [i18n](https://github.com/PanJiaChen/vue-element-admin/tree/i18n), los cambios serán incluidos en la rama master**
-
-**la versión actual es `v4.0+` construida con `vue-cli`. Si encuentra algún problema, por favor coloque un [issue](https://github.com/PanJiaChen/vue-element-admin/issues/new). Si desea usar la versión anterior, puede cambiar de rama a [tag/3.11.0](https://github.com/PanJiaChen/vue-element-admin/tree/tag/3.11.0), no relacionado con `vue-cli`**
-
-**Este proyecto no está soportado para versiones antigüas de navegadores (ej. IE).**
-
-## Preparación
-
-Necesita instalar [node](https://nodejs.org/) y [git](https://git-scm.com/) localmente. El proyecto es basado en [ES2015+](https://es6.ruanyifeng.com/), [vue](https://cn.vuejs.org/index.html), [vuex](https://vuex.vuejs.org/zh-cn/), [vue-router](https://router.vuejs.org/zh-cn/), [vue-cli](https://github.com/vuejs/vue-cli) , [axios](https://github.com/axios/axios) and [element-ui](https://github.com/ElemeFE/element), toda la solicitud de datos simulada se realiza a través de [Mock.js](https://github.com/nuysoft/Mock).
-Entendiendo y aprendiendo esto pudiera ayudarle con su proyecto.
-
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/PanJiaChen/vue-element-admin/tree/CodeSandbox)
 
 <p align="center">
-  <img width="900" src="https://wpimg.wallstcn.com/a5894c1b-f6af-456e-82df-1151da0839bf.png">
+  <!-- <img width="900" src="https://wpimg.wallstcn.com/a5894c1b-f6af-456e-82df-1151da0839bf.png"> -->
 </p>
 
-## Patrocinantes
 
-Sea un patrocinante y coloque su logo en nuestro LEEME en GitHub con un enlace directo a su sitio web. [[Se un Patrocinante]](https://www.patreon.com/panjiachen)
-
-### Akveo
-<a href="https://store.akveo.com/products/vue-java-admin-dashboard-spring?utm_campaign=akveo_store-Vue-Vue_demo%2Fgithub&utm_source=vue_admin&utm_medium=referral&utm_content=github_banner"><img width="500px" src="https://raw.githubusercontent.com/PanJiaChen/vue-element-admin-site/master/docs/.vuepress/public/images/vue-java-banner.png" /></a><p>Java backend integration</p>
-
-### Flatlogic
-
-<a href="https://flatlogic.com/admin-dashboards?from=vue-element-admin"><img width="150px" src="https://wpimg.wallstcn.com/9c0b719b-5551-4c1e-b776-63994632d94a.png" /></a><p>Admin Dashboard Templates made with Vue, React and Angular.</p>
-
-## Características
+## Features
 
 ```
-- Iniciar / Cerrar Sesión
-
-- Permisos de Autenticación
-  - Página de Permisos
-  - Directivas de permisos
-  - Página de configuración de permisos
-  - Autenticación por dos pasos
-
-- Construcción Multi-entorno
-  - Desarrollo (dev)
+- Form design
+- Thermodynamic diagram
+- Login / Logout
+- Multi-environment build
+  - Develop (dev)
   - sit
-  - Escenario de pruebas (stage),
-  - Producción (prod)
+  - Stage Test (stage)
+  - Production (prod)
 
-- Características Globales
+- Global Features
   - I18n
-  - Temas dinámicos
-  - Menu lateral dinámico (soporte a rutas multi-nivel)
-  - Barra de rutas dinámica
-  - Tags-view (Pestañas de página, Soporta operación de clic derecho)
-  - Svg Sprite
-  - Datos de simulación con Mock
-  - Pantalla completa
-  - Menu lateral responsivo
+  - Multiple dynamic themes
+  - Dynamic sidebar (supports multi-level routing)
+  - Dynamic breadcrumb
+  - Tags-view (Tab page Support right-click operation)
+  - Mock data
+  - Screenfull
+  - Responsive Sidebar
 
 - Editor
-  - Editor de Texto Enriquecido
-  - Editor Markdown
-  - Editor JSON
+  - Rich Text Editor
+  - JSON Editor
 
 - Excel
-  - Exportación a Excel
-  - Carga de Excel
-  - Visualización de Excel
-  - Exportación como ZIP
+  - Export Excel
+  - Upload Excel
+  - Visualization Excel
+  - Export zip
 
-- Tabla
-  - Tabla Dinámica
-  - Tabla con Arrastrar y Soltar
-  - Tabla de edición en línea
-
-- Páginas de Error
-  - 401
-  - 404
-
-- Componentes
-  - Carga de Avatar
-  - Botón para subir al inicio
-  - Arrastrar y Soltar (Diaglogo)
-  - Arrastrar y Soltar (Seleccionar)
-  - Arrastrar y Soltar (Kanban)
-  - Arrastrar y Soltar (Lista)
-  - Panel de división
-  - Componente para soltar archivos
-  - Adhesión de objetos
-  - Contador hasta
-
-- Ejemplo Avanzado
-- Registro de Errores
-- Tablero de indicadores
-- Página de Guías
-- ECharts (Gráficos)
-- Portapapeles
-- Convertidor de Markdown a HTML
+- Table
+  - Dynamic Table
+  - Drag And Drop Table
+- Components
+  - Avatar Upload
+  - Back To Top
+  - Drag Dialog
+  - Drag Select
+  - Drag Kanban
+  - Drag List
+- Advanced Example
+- Error Log
+- Dashboard
+- Guide Page
+- ECharts
+- Clipboard
 ```
 
-## Iniciando
+## Getting started
 
 ```bash
-# clone el proyecto
-git clone https://github.com/PanJiaChen/vue-element-admin.git
+# clone the project
+git clone -b i18n git@github.com:PanJiaChen/vue-element-admin.git
 
-# vaya al directorio clonado
+# enter the project directory
 cd vue-element-admin
 
-# instale las dependencias
+# install dependency
 npm install
 
-# corra el proyecto como desarrollador
+# develop
 npm run dev
 ```
 
-Automáticamente se abrirá el siguiente enlace en su navegador http://localhost:9527
+This will automatically open http://localhost:9527
 
-## Construcción
+## Build
 
 ```bash
-# Construcción para entornos de prueba
+# build for test environment
 npm run build:stage
 
-# Construcción para entornos de producción
+# build for production environment
 npm run build:prod
 ```
 
-## Avanzado
+## Advanced
 
 ```bash
-# Vista previa con efectos de entorno
+# preview the release environment effect
 npm run preview
 
-# Vista previa  con efectos + análisis de recursos estáticos
+# preview the release environment effect + static resource analysis
 npm run preview -- --report
 
-# Chequeo de formato de código
+# code format check
 npm run lint
 
-# Chequeo de formato de código y auto-corrección
+# code format check and auto fix
 npm run lint -- --fix
 ```
 
-Vaya a [Documentación](https://panjiachen.github.io/vue-element-admin-site/guide/essentials/deploy.html) para mayor información
+Refer to [Documentation](https://panjiachen.github.io/vue-element-admin-site/guide/essentials/deploy.html) for more information
 
-## Registro de Cambios
+## Changelog
 
-Los cambios detallados por cada liberación se encuentran en [notas de liberación](https://github.com/PanJiaChen/vue-element-admin/releases).
+Detailed changes for each release are documented in the [release notes](https://github.com/PanJiaChen/vue-element-admin/releases).
 
-## Demostración en línea
+## Online Demo
 
-[Vista Prévia de la Aplicación](https://panjiachen.github.io/vue-element-admin)
 
-## Donación
 
-Si este proyecto es de mucha ayuda para ti, puedes comprarle al autor un vaso de jugo :tropical_drink:
 
-![Donar](https://wpimg.wallstcn.com/bd273f0d-83a0-4ef2-92e1-9ac8ed3746b9.png)
 
-[dona por Paypal](https://www.paypal.me/panfree23)
+## Browsers support
 
-[Comprame un Café](https://www.buymeacoffee.com/Pan)
-
-## Navegadores Soportados
-
-Navegadores modernos e Internet Explorer 10+.
+Modern browsers and Internet Explorer 10+.
 
 | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>Safari |
 | --------- | --------- | --------- | --------- |
-| IE10, IE11, Edge | últimas 2 versiones | últimas 2 versiones | últimas 2 versiones |
+| IE10, IE11, Edge | last 2 versions | last 2 versions | last 2 versions |
 
-## Licencia
 
-[MIT](https://github.com/PanJiaChen/vue-element-admin/blob/master/LICENSE)
-
-Copyright (c) 2017-presente PanJiaChen

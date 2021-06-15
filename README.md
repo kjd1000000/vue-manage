@@ -26,7 +26,7 @@
   </a>
 </p>
 
-English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Spanish](./README.es.md)
+English | [简体中文](./README.zh-CN.md)  | [Spanish](./README.es.md)
 
 ## Introduction
 
@@ -38,58 +38,24 @@ English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Spa
 
 - [Documentation](https://panjiachen.github.io/vue-element-admin-site/)
 
-- [Gitter](https://gitter.im/vue-element-admin/discuss)
 
-- [Donate](https://panjiachen.github.io/vue-element-admin-site/donate/)
 
-- [Wiki](https://github.com/PanJiaChen/vue-element-admin/wiki)
 
-- [Gitee](https://panjiachen.gitee.io/vue-element-admin/) 国内用户可访问该地址在线预览
-
-- Base template recommends using: [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template)
-- Desktop: [electron-vue-admin](https://github.com/PanJiaChen/electron-vue-admin)
-- Typescript: [vue-typescript-admin-template](https://github.com/Armour/vue-typescript-admin-template) (Credits: [@Armour](https://github.com/Armour))
-- [awesome-project](https://github.com/PanJiaChen/vue-element-admin/issues/2312)
-
-**After the `v4.1.0+` version, the default master branch will not support i18n. Please use [i18n Branch](https://github.com/PanJiaChen/vue-element-admin/tree/i18n), it will keep up with the master update**
-
-**The current version is `v4.0+` build on `vue-cli`. If you find a problem, please put [issue](https://github.com/PanJiaChen/vue-element-admin/issues/new). If you want to use the old version , you can switch branch to [tag/3.11.0](https://github.com/PanJiaChen/vue-element-admin/tree/tag/3.11.0), it does not rely on `vue-cli`**
 
 **This project does not support low version browsers (e.g. IE). Please add polyfill by yourself.**
 
-## Preparation
-
-You need to install [node](https://nodejs.org/) and [git](https://git-scm.com/) locally. The project is based on [ES2015+](https://es6.ruanyifeng.com/), [vue](https://cn.vuejs.org/index.html), [vuex](https://vuex.vuejs.org/zh-cn/), [vue-router](https://router.vuejs.org/zh-cn/), [vue-cli](https://github.com/vuejs/vue-cli) , [axios](https://github.com/axios/axios) and [element-ui](https://github.com/ElemeFE/element), all request data is simulated using [Mock.js](https://github.com/nuysoft/Mock).
-Understanding and learning this knowledge in advance will greatly help the use of this project.
-
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/PanJiaChen/vue-element-admin/tree/CodeSandbox)
 
 <p align="center">
   <img width="900" src="https://wpimg.wallstcn.com/a5894c1b-f6af-456e-82df-1151da0839bf.png">
 </p>
 
-## Sponsors
-
-Become a sponsor and get your logo on our README on GitHub with a link to your site. [[Become a sponsor]](https://www.patreon.com/panjiachen)
-
-### Akveo
-<a href="https://store.akveo.com/products/vue-java-admin-dashboard-spring?utm_campaign=akveo_store-Vue-Vue_demo%2Fgithub&utm_source=vue_admin&utm_medium=referral&utm_content=github_banner"><img width="500px" src="https://raw.githubusercontent.com/PanJiaChen/vue-element-admin-site/master/docs/.vuepress/public/images/vue-java-banner.png" /></a><p>Java backend integration</p>
-
-### Flatlogic
-
-<a href="https://flatlogic.com/admin-dashboards?from=vue-element-admin"><img width="150px" src="https://wpimg.wallstcn.com/9c0b719b-5551-4c1e-b776-63994632d94a.png" /></a><p>Admin Dashboard Templates made with Vue, React and Angular.</p>
 
 ## Features
 
 ```
+- Form design
+- Thermodynamic diagram
 - Login / Logout
-
-- Permission Authentication
-  - Page permission
-  - Directive permission
-  - Permission configuration page
-  - Two-step login
-
 - Multi-environment build
   - Develop (dev)
   - sit
@@ -102,14 +68,12 @@ Become a sponsor and get your logo on our README on GitHub with a link to your s
   - Dynamic sidebar (supports multi-level routing)
   - Dynamic breadcrumb
   - Tags-view (Tab page Support right-click operation)
-  - Svg Sprite
   - Mock data
   - Screenfull
   - Responsive Sidebar
 
 - Editor
   - Rich Text Editor
-  - Markdown Editor
   - JSON Editor
 
 - Excel
@@ -121,12 +85,6 @@ Become a sponsor and get your logo on our README on GitHub with a link to your s
 - Table
   - Dynamic Table
   - Drag And Drop Table
-  - Inline Edit Table
-
-- Error Page
-  - 401
-  - 404
-
 - Components
   - Avatar Upload
   - Back To Top
@@ -134,18 +92,12 @@ Become a sponsor and get your logo on our README on GitHub with a link to your s
   - Drag Select
   - Drag Kanban
   - Drag List
-  - SplitPane
-  - Dropzone
-  - Sticky
-  - CountTo
-
 - Advanced Example
 - Error Log
 - Dashboard
 - Guide Page
 - ECharts
 - Clipboard
-- Markdown to html
 ```
 
 ## Getting started

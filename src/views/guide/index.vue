@@ -15,22 +15,58 @@ export default {
   data() {
     return {
       loading:true,
-      driver: null
+      driver: null,
+      timmer:null
     }
   },
   mounted() {
     this.driver = new Driver()
   },
-   activated() {
-      console.log('CRE')
-      this.loading = true
-      // this.$loading({
-      //     lock: true,
-      //     text: 'Loading',
-      //     spinner: 'el-icon-loading',
-      //     background: 'rgba(0, 0, 0, 0.7)'
-      //   });
-    },
+     activated() {
+    console.log("CRE");
+    this.loading = true;
+
+    window.onkeydown =
+      window.onkeyup =
+      window.onkeypress =
+        function (event) {
+          // 判断是否按下F12，F12键码为123
+          if ((event.keyCode = 123)) {
+            event.preventDefault(); // 阻止默认事件行为
+            window.event.returnValue = false;
+          }
+        };
+    window.oncontextmenu = function () {
+      event.preventDefault(); // 阻止默认事件行为
+      return false;
+    };
+    var threshold = 160; // 打开控制台的宽或高阈值
+    // 每秒检查一次
+    this.timmer = window.setInterval(function () {
+      if (
+        window.outerWidth - window.innerWidth > threshold ||
+        window.outerHeight - window.innerHeight > threshold
+      ) {
+        // 如果打开控制台，则刷新页面
+        window.location.reload();
+      }
+    }, 400);
+  },
+  deactivated() {
+    clearTimeout(this.timmer)
+    window.onkeydown =
+      window.onkeyup =
+      window.onkeypress =
+        function (event) {
+          // 判断是否按下F12，F12键码为123
+          if ((event.keyCode = 123)) {
+          
+          }
+        };
+    window.oncontextmenu = function () {
+      
+    };
+  },
     methods: {
       load(){
         this.loading = false

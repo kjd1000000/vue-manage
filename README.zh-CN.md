@@ -63,7 +63,6 @@
 
 ```bash
 # 克隆项目
-git clone -b i18n git@github.com:PanJiaChen/vue-element-admin.git
 
 # 进入项目目录
 cd vue-element-admin
